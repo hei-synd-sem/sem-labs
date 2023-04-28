@@ -94,23 +94,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hdl"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd.info"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd.user"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds"
 )
 (vvPair
 variable "appl"
@@ -134,27 +134,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahbBeamer"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahbBeamer"
 )
 (vvPair
 variable "date"
-value "02/18/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "18"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -182,11 +182,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/18/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -194,11 +194,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "07:31:11"
+value "15:00:20"
 )
 (vvPair
 variable "group"
@@ -206,7 +206,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -234,7 +234,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -242,19 +242,19 @@ value "ahbBeamer"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahb@beamer\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahbBeamer\\struct.bd"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds\\ahbBeamer\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -330,7 +330,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "07:31:11"
+value "15:00:20"
 )
 (vvPair
 variable "unit"
@@ -338,7 +338,7 @@ value "ahbBeamer"
 )
 (vvPair
 variable "user"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -350,11 +350,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
@@ -3569,7 +3569,7 @@ on &35
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -3677,8 +3677,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "91,48,1187,907"
-viewArea "-44392,-63873,131744,79187"
+windowSize "-8,-8,1928,1048"
+viewArea "-1581,-24668,109793,35844"
 cachedDiagramExtent "0,-23000,111500,31400"
 pageSetupInfo (PageSetupInfo
 ptrCmd "priPrinter,winspool,"
@@ -3705,7 +3705,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-25000"
-lastUid 17660,0
+lastUid 17691,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

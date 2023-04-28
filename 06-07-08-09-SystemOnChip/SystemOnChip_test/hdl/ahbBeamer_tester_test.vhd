@@ -3,7 +3,6 @@ LIBRARY Common_test;
 
 ARCHITECTURE test OF ahbBeamer_tester IS
                                                               -- reset and clock
-  constant clockFrequency: real := 100.0E6;
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal clock_int: std_uLogic := '1';
   signal reset_int: std_uLogic;

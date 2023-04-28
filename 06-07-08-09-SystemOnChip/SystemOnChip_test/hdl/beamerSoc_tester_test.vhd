@@ -1,6 +1,5 @@
 ARCHITECTURE test OF beamerSoc_tester IS
                                                               -- clock and reset
-  constant clockFrequency: real := 66.0E6;
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal sClock: std_uLogic := '1';
   signal sReset: std_uLogic := '1';
