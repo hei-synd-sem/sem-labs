@@ -103,23 +103,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hdl"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd.info"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd.user"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "appl"
@@ -143,27 +143,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseEncoder"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseEncoder"
 )
 (vvPair
 variable "date"
-value "02/19/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -191,11 +191,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/19/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -203,11 +203,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:47:36"
+value "14:50:20"
 )
 (vvPair
 variable "group"
@@ -215,7 +215,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -231,7 +231,7 @@ value "$SCRATCH_DIR/Morse"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -239,19 +239,19 @@ value "morseEncoder"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@encoder\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseEncoder\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseEncoder\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -303,7 +303,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:47:36"
+value "14:50:20"
 )
 (vvPair
 variable "unit"
@@ -311,7 +311,7 @@ value "morseEncoder"
 )
 (vvPair
 variable "user"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -323,11 +323,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
@@ -393,8 +393,7 @@ uid 22,0
 va (VaSet
 )
 xt "-4000,9000,9700,10200"
-st "clock          : std_ulogic
-"
+st "clock          : std_ulogic"
 )
 )
 *3 (Net
@@ -410,8 +409,7 @@ uid 36,0
 va (VaSet
 )
 xt "-4000,7800,11500,9000"
-st "morseCode      : std_ulogic
-"
+st "morseCode      : std_ulogic"
 )
 )
 *4 (PortIoIn
@@ -473,8 +471,7 @@ uid 50,0
 va (VaSet
 )
 xt "-4000,10200,9600,11400"
-st "reset          : std_ulogic
-"
+st "reset          : std_ulogic"
 )
 )
 *6 (Grouping
@@ -1091,8 +1088,7 @@ uid 352,0
 va (VaSet
 )
 xt "-4000,17000,35600,18200"
-st "SIGNAL characterIn    : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL characterIn    : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
 )
 )
 *27 (Net
@@ -1108,8 +1104,7 @@ uid 354,0
 va (VaSet
 )
 xt "-4000,18200,16200,19400"
-st "SIGNAL characterValid : std_ulogic
-"
+st "SIGNAL characterValid : std_ulogic"
 )
 )
 *28 (Net
@@ -1126,8 +1121,7 @@ uid 436,0
 va (VaSet
 )
 xt "-4000,15800,36100,17000"
-st "SIGNAL characterReg   : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL characterReg   : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
 )
 )
 *29 (HdlText
@@ -1230,8 +1224,7 @@ uid 721,0
 va (VaSet
 )
 xt "-4000,19400,15600,20600"
-st "SIGNAL morseOut       : std_ulogic
-"
+st "SIGNAL morseOut       : std_ulogic"
 )
 )
 *34 (Net
@@ -1247,8 +1240,7 @@ uid 733,0
 va (VaSet
 )
 xt "-4000,20600,14000,21800"
-st "SIGNAL tone           : std_ulogic
-"
+st "SIGNAL tone           : std_ulogic"
 )
 )
 *35 (SaComponent
@@ -1770,8 +1762,7 @@ uid 1090,0
 va (VaSet
 )
 xt "-4000,21800,16500,23000"
-st "SIGNAL charNotReady   : std_ulogic
-"
+st "SIGNAL charNotReady   : std_ulogic"
 )
 )
 *53 (Net
@@ -1787,8 +1778,7 @@ uid 1096,0
 va (VaSet
 )
 xt "-4000,23000,15200,24200"
-st "SIGNAL readChar       : std_ulogic
-"
+st "SIGNAL readChar       : std_ulogic"
 )
 )
 *54 (PortIoOut
@@ -1848,8 +1838,7 @@ uid 1557,0
 va (VaSet
 )
 xt "-4000,11400,9700,12600"
-st "RxD            : std_ulogic
-"
+st "RxD            : std_ulogic"
 )
 )
 *56 (PortIoIn
@@ -2904,7 +2893,7 @@ on &55
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -3010,8 +2999,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "449,203,1734,1080"
-viewArea "-7600,-1600,104847,78081"
+windowSize "-8,-8,1928,1048"
+viewArea "-7612,-1603,134949,75855"
 cachedDiagramExtent "-7400,0,104400,74000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3038,7 +3027,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 1896,0
+lastUid 1937,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

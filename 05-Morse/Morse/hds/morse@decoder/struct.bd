@@ -132,23 +132,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hdl"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd.info"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd.user"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds"
 )
 (vvPair
 variable "appl"
@@ -172,27 +172,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morseDecoder"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseDecoder"
 )
 (vvPair
 variable "date"
-value "03.03.2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "03"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -220,11 +220,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "03.03.2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -232,11 +232,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30910"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:31:18"
+value "14:50:11"
 )
 (vvPair
 variable "group"
@@ -244,7 +244,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30910"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -260,7 +260,7 @@ value "$SCRATCH_DIR/Morse"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -268,19 +268,19 @@ value "morseDecoder"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morse@decoder\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\silvan.zahno\\Desktop\\sem_labs_solution\\05-Morse\\Prefs\\..\\Morse\\hds\\morseDecoder\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseDecoder\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -328,7 +328,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:31:18"
+value "14:50:11"
 )
 (vvPair
 variable "unit"
@@ -336,7 +336,7 @@ value "morseDecoder"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -348,11 +348,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
@@ -419,8 +419,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,57000,7200,58000"
-st "clock          : std_ulogic
-"
+st "clock          : std_ulogic"
 )
 )
 *3 (Net
@@ -437,8 +436,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,56000,8600,57000"
-st "morseCode      : std_ulogic
-"
+st "morseCode      : std_ulogic"
 )
 )
 *4 (PortIoIn
@@ -501,8 +499,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,58000,7200,59000"
-st "reset          : std_ulogic
-"
+st "reset          : std_ulogic"
 )
 )
 *6 (Grouping
@@ -935,8 +932,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,59000,7400,60000"
-st "TxD            : std_ulogic
-"
+st "TxD            : std_ulogic"
 )
 )
 *20 (SaComponent
@@ -1266,8 +1262,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,65000,11700,66000"
-st "SIGNAL symbolValue    : std_ulogic
-"
+st "SIGNAL symbolValue    : std_ulogic"
 )
 )
 *31 (Net
@@ -1284,8 +1279,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,66000,11400,67000"
-st "SIGNAL symbolValid    : std_ulogic
-"
+st "SIGNAL symbolValid    : std_ulogic"
 )
 )
 *32 (Net
@@ -1303,8 +1297,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,67000,24600,68000"
-st "SIGNAL symbolDuration : unsigned(unitCountBitNb-1 DOWNTO 0)
-"
+st "SIGNAL symbolDuration : unsigned(unitCountBitNb-1 DOWNTO 0)"
 )
 )
 *33 (Net
@@ -1321,8 +1314,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,68000,10800,69000"
-st "SIGNAL charValid      : std_ulogic
-"
+st "SIGNAL charValid      : std_ulogic"
 )
 )
 *34 (Net
@@ -1340,8 +1332,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,69000,26500,70000"
-st "SIGNAL charOut        : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL charOut        : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
 )
 )
 *35 (HdlText
@@ -1440,8 +1431,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,70000,26600,71000"
-st "SIGNAL txWord         : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL txWord         : std_ulogic_vector(uartDataBitNb-1 DOWNTO 0)"
 )
 )
 *40 (Net
@@ -1458,8 +1448,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,71000,10800,72000"
-st "SIGNAL txBusy         : std_ulogic
-"
+st "SIGNAL txBusy         : std_ulogic"
 )
 )
 *41 (Net
@@ -1476,8 +1465,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,72000,10900,73000"
-st "SIGNAL txSend         : std_ulogic
-"
+st "SIGNAL txSend         : std_ulogic"
 )
 )
 *42 (SaComponent
@@ -1778,9 +1766,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "68250,50250,69750,51750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 viewiconposition 0
@@ -1804,8 +1791,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,73000,11500,74000"
-st "SIGNAL txFifoEmpty    : std_ulogic
-"
+st "SIGNAL txFifoEmpty    : std_ulogic"
 )
 )
 *53 (SaComponent
@@ -2174,8 +2160,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-4000,60000,9000,61000"
-st "morseEnvelope  : std_ulogic
-"
+st "morseEnvelope  : std_ulogic"
 )
 )
 *65 (PortIoOut
@@ -2801,8 +2786,7 @@ va (VaSet
 )
 xt "20000,55600,43500,58000"
 st "dataBitNb = uartDataBitNb    ( positive )  
-depth     = fifoDepth        ( positive )  
-"
+depth     = fifoDepth        ( positive )  "
 )
 header ""
 )
@@ -2827,9 +2811,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "20250,50250,21750,51750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 viewiconposition 0
@@ -3833,7 +3816,7 @@ on &64
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -3939,8 +3922,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "448,63,1523,914"
-viewArea "-14067,15650,61222,77606"
+windowSize "-8,-8,1928,1048"
+viewArea "-7612,-1603,134949,75855"
 cachedDiagramExtent "-6000,0,103000,74000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3967,7 +3950,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 2397,0
+lastUid 2450,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

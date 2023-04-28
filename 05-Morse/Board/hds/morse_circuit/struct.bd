@@ -142,8 +142,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "31.1"
-appVersion "2018.1 (Build 12)"
+version "32.1"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -154,23 +154,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hdl"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd.info"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd.user"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -194,27 +194,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
 )
 (vvPair
 variable "d_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
 )
 (vvPair
 variable "date"
-value "13.03.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -242,11 +242,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.03.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -254,11 +254,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20301"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:54:51"
+value "14:49:40"
 )
 (vvPair
 variable "group"
@@ -266,7 +266,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20301"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -298,7 +298,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -306,19 +306,19 @@ value "morse_circuit"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -326,7 +326,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "morse"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -394,7 +394,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:54:51"
+value "14:49:40"
 )
 (vvPair
 variable "unit"
@@ -402,11 +402,11 @@ value "morse_circuit"
 )
 (vvPair
 variable "user"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -414,11 +414,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "19"
+value "23"
 )
 ]
 )
@@ -437,7 +437,7 @@ declText (MLText
 uid 22,0
 va (VaSet
 )
-xt "-1000,8200,7600,9200"
+xt "-1000,8200,12400,9400"
 st "clock         : std_ulogic"
 )
 )
@@ -462,7 +462,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "69200,73000,82300,74000"
+xt "69200,73500,69200,73500"
 st "
 by %user on %dd %month %year
 "
@@ -492,7 +492,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "86200,69000,89200,70000"
+xt "86200,69500,86200,69500"
 st "
 Project:
 "
@@ -522,7 +522,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "69200,71000,79200,72000"
+xt "69200,71500,69200,71500"
 st "
 <enter diagram title here>
 "
@@ -552,7 +552,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "65200,71000,67300,72000"
+xt "65200,71500,65200,71500"
 st "
 Title:
 "
@@ -582,7 +582,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "86200,70200,95400,71200"
+xt "86200,70200,100300,71400"
 st "
 <enter comments here>
 "
@@ -611,7 +611,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "90200,69000,100300,70000"
+xt "90200,69500,90200,69500"
 st "
 <enter project name here>
 "
@@ -640,7 +640,7 @@ uid 73,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "72150,69500,78850,70500"
+xt "70350,69400,80650,70600"
 st "
 <company name>
 "
@@ -671,7 +671,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "65200,72000,67300,73000"
+xt "65200,72500,65200,72500"
 st "
 Path:
 "
@@ -701,7 +701,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "65200,73000,67900,74000"
+xt "65200,73500,65200,73500"
 st "
 Edited:
 "
@@ -731,7 +731,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "69200,72000,79300,73000"
+xt "69200,72500,69200,72500"
 st "
 %library/%unit/%view
 "
@@ -812,7 +812,7 @@ declText (MLText
 uid 898,0
 va (VaSet
 )
-xt "-1000,27200,11600,28200"
+xt "-1000,27200,18400,28400"
 st "SIGNAL resetSynch    : std_ulogic"
 )
 )
@@ -1057,7 +1057,7 @@ declText (MLText
 uid 2002,0
 va (VaSet
 )
-xt "-1000,7200,7800,8200"
+xt "-1000,7200,12400,8400"
 st "RxD           : std_ulogic"
 )
 )
@@ -1073,7 +1073,7 @@ declText (MLText
 uid 2016,0
 va (VaSet
 )
-xt "-1000,11200,8900,12200"
+xt "-1000,11200,14200,12400"
 st "RxD_synch     : std_ulogic"
 )
 )
@@ -1370,7 +1370,7 @@ text (MLText
 uid 2168,0
 va (VaSet
 )
-xt "66000,28000,85400,33000"
+xt "66000,28000,94900,34000"
 st "clockFrequency = clockFrequency        ( real     )  
 uartBaudRate   = uartBaudRate          ( real     )  
 uartDataBitNb  = uartDataBitNb         ( positive )  
@@ -1425,7 +1425,7 @@ declText (MLText
 uid 2263,0
 va (VaSet
 )
-xt "-1000,14200,8600,15200"
+xt "-1000,14200,13800,15400"
 st "morseOut      : std_ulogic"
 )
 )
@@ -1541,7 +1541,7 @@ text (MLText
 uid 2377,0
 va (VaSet
 )
-xt "32200,52200,37500,53200"
+xt "32200,52200,37700,53400"
 st "
 logic1 <= '1';
 "
@@ -2197,7 +2197,7 @@ declText (MLText
 uid 2477,0
 va (VaSet
 )
-xt "-1000,26200,12300,27200"
+xt "-1000,26200,19300,27400"
 st "SIGNAL resetSnch_N1  : std_ulogic"
 )
 )
@@ -2213,7 +2213,7 @@ declText (MLText
 uid 2479,0
 va (VaSet
 )
-xt "-1000,25200,10800,26200"
+xt "-1000,25200,17200,26400"
 st "SIGNAL reset1        : std_ulogic"
 )
 )
@@ -2229,7 +2229,7 @@ declText (MLText
 uid 2483,0
 va (VaSet
 )
-xt "-1000,10200,8200,11200"
+xt "-1000,10200,13100,11400"
 st "reset_N       : std_ulogic"
 )
 )
@@ -2474,7 +2474,7 @@ declText (MLText
 uid 2539,0
 va (VaSet
 )
-xt "-1000,9200,8400,10200"
+xt "-1000,9200,13600,10400"
 st "morseIn       : std_uLogic"
 )
 )
@@ -2535,7 +2535,7 @@ declText (MLText
 uid 2553,0
 va (VaSet
 )
-xt "-1000,24200,12500,25200"
+xt "-1000,24200,19900,25400"
 st "SIGNAL morseIn_synch : std_uLogic"
 )
 )
@@ -2551,7 +2551,7 @@ declText (MLText
 uid 2555,0
 va (VaSet
 )
-xt "-1000,12200,7700,13200"
+xt "-1000,12200,12400,13400"
 st "TxD           : std_ulogic"
 )
 )
@@ -2611,7 +2611,7 @@ declText (MLText
 uid 2569,0
 va (VaSet
 )
-xt "-1000,13200,9400,14200"
+xt "-1000,13200,15000,14400"
 st "morseEnvelope : std_ulogic"
 )
 )
@@ -2671,7 +2671,7 @@ declText (MLText
 uid 2599,0
 va (VaSet
 )
-xt "-1000,23200,11000,24200"
+xt "-1000,23200,17300,24400"
 st "SIGNAL logic1        : std_uLogic"
 )
 )
@@ -2915,7 +2915,7 @@ text (MLText
 uid 2669,0
 va (VaSet
 )
-xt "66000,56600,85400,62600"
+xt "66000,56600,94900,63800"
 st "clockFrequency = clockFrequency        ( real     )  
 uartBaudRate   = uartBaudRate          ( real     )  
 uartDataBitNb  = uartDataBitNb         ( positive )  
@@ -3783,7 +3783,7 @@ on &83
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -3808,7 +3808,7 @@ blo "-3000,800"
 uid 86,0
 va (VaSet
 )
-xt "-3000,1000,8300,4000"
+xt "-3000,1000,14500,4600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -3845,7 +3845,7 @@ uid 90,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2000,27500,4000"
+xt "20000,2000,32100,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -3889,8 +3889,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "132,50,1480,927"
-viewArea "-4568,-1589,111288,75890"
+windowSize "-8,-8,1928,1048"
+viewArea "-4567,-1603,137994,75855"
 cachedDiagramExtent "-3000,0,340751,321398"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3914,7 +3914,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 2747,0
+lastUid 2786,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3929,7 +3929,7 @@ text (MLText
 va (VaSet
 fg "65535,0,0"
 )
-xt "200,200,2000,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -3956,7 +3956,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "500,2150,1400,3150"
+xt "450,2150,1450,3350"
 st "
 Text
 "
@@ -4308,7 +4308,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,2000,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -4601,7 +4601,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1000,1000,2000"
+xt "0,1000,1500,2200"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -4625,13 +4625,13 @@ stg "VerticalLayoutStrategy"
 first (MLText
 va (VaSet
 )
-xt "0,0,3100,1000"
+xt "0,0,5000,1200"
 st "Auto list"
 )
 second (MLText
 va (VaSet
 )
-xt "0,1000,6300,2000"
+xt "0,1000,9600,2200"
 st "User defined list"
 tm "PortMapTextMgr"
 )
@@ -4653,7 +4653,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,12600,-100"
+xt "0,-1100,18500,100"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -4713,7 +4713,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,7400,-100"
+xt "0,-1100,11000,100"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -4854,7 +4854,7 @@ preUserText (MLText
 uid 5,0
 va (VaSet
 )
-xt "-1000,16200,23100,22200"
+xt "-1000,16200,36700,23400"
 st "constant clockFrequency: real := 66.0E6;
 constant uartBaudRate: real := 9.6E3;
 constant uartDataBitNb: positive := 7;

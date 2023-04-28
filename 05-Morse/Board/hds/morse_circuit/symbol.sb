@@ -16,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "26.1"
-appVersion "2018.1 (Build 12)"
+version "27.1"
+appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -495,23 +495,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hdl"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb.info"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb.user"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -535,27 +535,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
 )
 (vvPair
 variable "d_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit"
 )
 (vvPair
 variable "date"
-value "13.03.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -583,11 +583,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.03.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -595,11 +595,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20301"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:54:52"
+value "14:49:40"
 )
 (vvPair
 variable "group"
@@ -607,7 +607,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20301"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -639,7 +639,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -647,19 +647,19 @@ value "morse_circuit"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb"
+value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Board\\hds\\morse_circuit\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -667,7 +667,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "morse"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -735,7 +735,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:54:52"
+value "14:49:40"
 )
 (vvPair
 variable "unit"
@@ -743,11 +743,11 @@ value "morse_circuit"
 )
 (vvPair
 variable "user"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -755,11 +755,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "19"
+value "23"
 )
 ]
 )
@@ -800,7 +800,7 @@ dt (MLText
 uid 56,0
 va (VaSet
 )
-xt "2000,12000,13000,13000"
+xt "2000,12000,19200,13200"
 st "clock         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -843,7 +843,7 @@ dt (MLText
 uid 87,0
 va (VaSet
 )
-xt "2000,14000,13600,15000"
+xt "2000,14000,19900,15200"
 st "reset_N       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -886,7 +886,7 @@ dt (MLText
 uid 372,0
 va (VaSet
 )
-xt "2000,11000,13200,12000"
+xt "2000,11000,19200,12200"
 st "RxD           : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -930,7 +930,7 @@ dt (MLText
 uid 377,0
 va (VaSet
 )
-xt "2000,15000,15000,16000"
+xt "2000,15000,21800,16200"
 st "RxD_synch     : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -974,7 +974,7 @@ dt (MLText
 uid 522,0
 va (VaSet
 )
-xt "2000,18000,14300,19000"
+xt "2000,18000,20700,19200"
 st "morseOut      : OUT    std_ulogic "
 )
 thePort (LogicalPort
@@ -1017,7 +1017,7 @@ dt (MLText
 uid 556,0
 va (VaSet
 )
-xt "2000,13000,13800,14000"
+xt "2000,13000,20400,14200"
 st "morseIn       : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
@@ -1060,7 +1060,7 @@ dt (MLText
 uid 561,0
 va (VaSet
 )
-xt "2000,16000,13800,17000"
+xt "2000,16000,20000,17200"
 st "TxD           : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1104,7 +1104,7 @@ dt (MLText
 uid 566,0
 va (VaSet
 )
-xt "2000,17000,15500,18000"
+xt "2000,17000,22600,18200"
 st "morseEnvelope : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1162,7 +1162,7 @@ text (MLText
 uid 15,0
 va (VaSet
 )
-xt "32000,25600,40400,28600"
+xt "32000,25600,44700,29200"
 st "Generic Declarations
 
 bitNb positive 16  "
@@ -1208,7 +1208,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,49300,49000"
+xt "36200,48500,36200,48500"
 st "
 by %user on %dd %month %year
 "
@@ -1238,7 +1238,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,56200,45000"
+xt "53200,44500,53200,44500"
 st "
 Project:
 "
@@ -1268,7 +1268,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,46200,47000"
+xt "36200,46500,36200,46500"
 st "
 <enter diagram title here>
 "
@@ -1298,7 +1298,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,34300,47000"
+xt "32200,46500,32200,46500"
 st "
 Title:
 "
@@ -1328,7 +1328,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,62400,46200"
+xt "53200,45200,67300,46400"
 st "
 <enter comments here>
 "
@@ -1357,7 +1357,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,67300,45000"
+xt "57200,44500,57200,44500"
 st "
 <enter project name here>
 "
@@ -1386,7 +1386,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "39150,44500,45850,45500"
+xt "37350,44400,47650,45600"
 st "
 <company name>
 "
@@ -1417,7 +1417,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,34300,48000"
+xt "32200,47500,32200,47500"
 st "
 Path:
 "
@@ -1447,7 +1447,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,34900,49000"
+xt "32200,48500,32200,48500"
 st "
 Edited:
 "
@@ -1477,7 +1477,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,46700,48000"
+xt "36200,47500,36200,47500"
 st "
 %library/%unit/%view
 "
@@ -1531,7 +1531,7 @@ blo "0,800"
 uid 50,0
 va (VaSet
 )
-xt "0,1000,11300,4000"
+xt "0,1000,17500,4600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -1602,7 +1602,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "500,2150,1400,3150"
+xt "450,2150,1450,3350"
 st "
 Text
 "
@@ -1819,7 +1819,7 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 773,0
+lastUid 796,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )
