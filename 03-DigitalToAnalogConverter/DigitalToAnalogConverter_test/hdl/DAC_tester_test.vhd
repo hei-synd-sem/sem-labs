@@ -3,7 +3,6 @@ library ieee;
 
 ARCHITECTURE test OF DAC_tester IS
 
-  constant clockFrequency: real := 66.0E6;
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal sClock: std_uLogic := '1';
 
