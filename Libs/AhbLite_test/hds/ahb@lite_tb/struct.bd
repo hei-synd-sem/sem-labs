@@ -87,6 +87,11 @@ name "periph2BaseAddress"
 type "natural"
 value "16#10#"
 )
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
+)
 ]
 mwi 0
 uid 13243,0
@@ -109,23 +114,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hdl"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd.info"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd.user"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -149,27 +154,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahb@lite_tb"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahb@lite_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahbLite_tb"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahbLite_tb"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -197,11 +202,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -209,11 +214,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "07:34:52"
+value "15:16:10"
 )
 (vvPair
 variable "group"
@@ -221,7 +226,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -237,11 +242,11 @@ value "D:\\Users\\ELN_labs\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/ElN/Libraries/AhbLite_test/work"
+value "$SCRATCH_DIR/AhbLite_test"
 )
 (vvPair
 variable "mm"
-value "11"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -249,19 +254,19 @@ value "ahbLite_tb"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahb@lite_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\AhbLite_test\\hds\\ahbLite_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\..\\Libs\\AhbLite_test\\hds\\ahbLite_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -337,7 +342,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "07:34:52"
+value "15:16:10"
 )
 (vvPair
 variable "unit"
@@ -345,7 +350,7 @@ value "ahbLite_tb"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -357,11 +362,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "19"
+value "23"
 )
 ]
 )
@@ -450,7 +455,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "146200,127400,164600,128600"
+xt "146200,127400,164000,128600"
 st "
 by %user on %dd %month %year
 "
@@ -3205,8 +3210,10 @@ uid 13251,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "37000,119200,61000,120000"
-st "periph2BaseAddress = 16#10#    ( natural )  "
+xt "37000,119200,65000,120800"
+st "periph2BaseAddress = 16#10#            ( natural )  
+clockFrequency     = clockFrequency    ( real    )  
+"
 )
 header ""
 )
@@ -3215,6 +3222,11 @@ elements [
 name "periph2BaseAddress"
 type "natural"
 value "16#10#"
+)
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
 )
 ]
 )
@@ -5201,7 +5213,7 @@ on &111
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -5312,8 +5324,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "104,43,1430,898"
-viewArea "26656,17257,204334,131696"
+windowSize "-8,-8,1928,1048"
+viewArea "26627,17278,237179,131677"
 cachedDiagramExtent "0,-2200,192000,168200"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -5337,7 +5349,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "29000,19000"
-lastUid 13613,0
+lastUid 13694,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
