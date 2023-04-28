@@ -24,6 +24,11 @@ name "adderBitNb"
 type "positive"
 value "adderBitNb"
 )
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
+)
 ]
 mwi 0
 uid 2178,0
@@ -59,23 +64,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd.info"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd.user"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -99,27 +104,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallelAdder_tb"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallelAdder_tb"
 )
 (vvPair
 variable "date"
-value "02/17/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -147,11 +152,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/17/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -159,11 +164,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:11:08"
+value "15:19:47"
 )
 (vvPair
 variable "group"
@@ -171,7 +176,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -191,7 +196,7 @@ value "$SCRATCH_DIR/PipelinedOperators_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -199,19 +204,19 @@ value "parallelAdder_tb"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallel@adder_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallelAdder_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\parallelAdder_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -287,7 +292,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:11:08"
+value "15:19:47"
 )
 (vvPair
 variable "unit"
@@ -295,7 +300,7 @@ value "parallelAdder_tb"
 )
 (vvPair
 variable "user"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -307,11 +312,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
@@ -687,8 +692,10 @@ text (MLText
 uid 2186,0
 va (VaSet
 )
-xt "19000,41000,41500,42200"
-st "adderBitNb = adderBitNb    ( positive )  "
+xt "19000,41000,45200,43400"
+st "adderBitNb     = adderBitNb        ( positive )  
+clockFrequency = clockFrequency    ( real     )  
+"
 )
 header ""
 )
@@ -697,6 +704,11 @@ elements [
 name "adderBitNb"
 type "positive"
 value "adderBitNb"
+)
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
 )
 ]
 )
@@ -714,8 +726,9 @@ uid 2241,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,12800,13500,13800"
-st "SIGNAL cOut : std_ulogic"
+xt "2000,14800,13500,15800"
+st "SIGNAL cOut : std_ulogic
+"
 )
 )
 *17 (Net
@@ -731,8 +744,9 @@ uid 2249,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,11800,13200,12800"
-st "SIGNAL cIn  : std_ulogic"
+xt "2000,13800,13200,14800"
+st "SIGNAL cIn  : std_ulogic
+"
 )
 )
 *18 (Net
@@ -749,8 +763,9 @@ uid 2257,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,10800,23100,11800"
-st "SIGNAL b    : signed(adderBitNb-1 DOWNTO 0)"
+xt "2000,12800,23100,13800"
+st "SIGNAL b    : signed(adderBitNb-1 DOWNTO 0)
+"
 )
 )
 *19 (Net
@@ -767,8 +782,9 @@ uid 2265,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,9800,23100,10800"
-st "SIGNAL a    : signed(adderBitNb-1 DOWNTO 0)"
+xt "2000,11800,23100,12800"
+st "SIGNAL a    : signed(adderBitNb-1 DOWNTO 0)
+"
 )
 )
 *20 (Net
@@ -785,8 +801,9 @@ uid 2285,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,13800,23700,14800"
-st "SIGNAL sum  : signed(adderBitNb-1 DOWNTO 0)"
+xt "2000,15800,23700,16800"
+st "SIGNAL sum  : signed(adderBitNb-1 DOWNTO 0)
+"
 )
 )
 *21 (SaComponent
@@ -1256,7 +1273,7 @@ on &20
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -1362,8 +1379,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "112,39,1334,978"
-viewArea "-1100,-1100,75262,49786"
+windowSize "-8,-8,1928,1048"
+viewArea "-1065,-1065,93672,50408"
 cachedDiagramExtent "0,0,73000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -1388,7 +1405,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2598,0
+lastUid 2631,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2328,8 +2345,10 @@ uid 5,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,7900,18000,8900"
-st "constant adderBitNb: positive := 8;"
+xt "2000,7900,22100,10900"
+st "constant adderBitNb: positive := 8;
+constant clockFrequency : real := 60.0E6;
+--constant clockFrequency : real := 66.0E6;"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -2337,9 +2356,9 @@ uid 6,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,8900,8500,9800"
+xt "0,10900,8500,11800"
 st "Diagram Signals:"
-blo "0,9600"
+blo "0,11600"
 )
 postUserLabel (Text
 uid 7,0

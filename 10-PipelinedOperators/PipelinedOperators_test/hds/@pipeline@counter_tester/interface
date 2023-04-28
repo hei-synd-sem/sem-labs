@@ -22,7 +22,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 6,0
+suid 9,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -68,10 +68,10 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 4,0
+suid 7,0
 )
 )
-uid 192,0
+uid 261,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -80,10 +80,10 @@ n "countOut"
 t "unsigned"
 b "(counterBitNb-1 downto 0)"
 o 2
-suid 5,0
+suid 8,0
 )
 )
-uid 194,0
+uid 263,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -92,10 +92,10 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 3
-suid 6,0
+suid 9,0
 )
 )
-uid 196,0
+uid 265,0
 )
 ]
 )
@@ -151,19 +151,19 @@ uid 92,0
 litem &14
 pos 0
 dimension 20
-uid 193,0
+uid 262,0
 )
 *23 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 195,0
+uid 264,0
 )
 *24 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 197,0
+uid 266,0
 )
 ]
 )
@@ -281,6 +281,14 @@ value ""
 )
 uid 152,0
 )
+*46 (LogGeneric
+generic (GiElement
+name "clockFrequency"
+type "real"
+value ""
+)
+uid 221,0
+)
 ]
 )
 pdm (PhysicalDM
@@ -288,7 +296,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 115,0
 optionalChildren [
-*46 (Sheet
+*47 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -305,37 +313,43 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *47 (MRCItem
+emptyMRCItem *48 (MRCItem
 litem &33
-pos 1
+pos 2
 dimension 20
 )
 uid 117,0
 optionalChildren [
-*48 (MRCItem
+*49 (MRCItem
 litem &34
 pos 0
 dimension 20
 uid 118,0
 )
-*49 (MRCItem
+*50 (MRCItem
 litem &35
 pos 1
 dimension 23
 uid 119,0
 )
-*50 (MRCItem
+*51 (MRCItem
 litem &36
 pos 2
 hidden 1
 dimension 20
 uid 120,0
 )
-*51 (MRCItem
+*52 (MRCItem
 litem &45
 pos 0
 dimension 20
 uid 153,0
+)
+*53 (MRCItem
+litem &46
+pos 1
+dimension 20
+uid 222,0
 )
 ]
 )
@@ -348,43 +362,43 @@ textAngle 90
 )
 uid 121,0
 optionalChildren [
-*52 (MRCItem
+*54 (MRCItem
 litem &37
 pos 0
 dimension 20
 uid 122,0
 )
-*53 (MRCItem
+*55 (MRCItem
 litem &39
 pos 1
 dimension 50
 uid 123,0
 )
-*54 (MRCItem
+*56 (MRCItem
 litem &40
 pos 2
 dimension 100
 uid 124,0
 )
-*55 (MRCItem
+*57 (MRCItem
 litem &41
 pos 3
 dimension 100
 uid 125,0
 )
-*56 (MRCItem
+*58 (MRCItem
 litem &42
 pos 4
 dimension 50
 uid 126,0
 )
-*57 (MRCItem
+*59 (MRCItem
 litem &43
 pos 5
 dimension 50
 uid 127,0
 )
-*58 (MRCItem
+*60 (MRCItem
 litem &44
 pos 6
 dimension 80
@@ -408,23 +422,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface.info"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface.user"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -444,27 +458,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\PipelineCounter_tester"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\PipelineCounter_tester"
 )
 (vvPair
 variable "date"
-value "02/20/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -488,11 +502,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/20/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -500,11 +514,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:02:51"
+value "15:21:00"
 )
 (vvPair
 variable "group"
@@ -512,7 +526,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -528,7 +542,7 @@ value "$SCRATCH_DIR/PipelinedOperators_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -536,19 +550,19 @@ value "PipelineCounter_tester"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\@pipeline@counter_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\sem_labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\PipelineCounter_tester\\interface"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\PipelineCounter_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -576,7 +590,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "16:02:51"
+value "15:21:00"
 )
 (vvPair
 variable "unit"
@@ -584,7 +598,7 @@ value "PipelineCounter_tester"
 )
 (vvPair
 variable "user"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -596,25 +610,25 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
 LanguageMgr "Vhdl2008LangMgr"
 uid 72,0
 optionalChildren [
-*59 (SymbolBody
+*61 (SymbolBody
 uid 8,0
 optionalChildren [
-*60 (CptPort
-uid 177,0
+*62 (CptPort
+uid 246,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 178,0
+uid 247,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -622,11 +636,11 @@ fg "0,65535,0"
 xt "23625,5250,24375,6000"
 )
 tg (CPTG
-uid 179,0
+uid 248,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 180,0
+uid 249,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -639,7 +653,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 181,0
+uid 250,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -653,15 +667,15 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 4,0
+suid 7,0
 )
 )
 )
-*61 (CptPort
-uid 182,0
+*63 (CptPort
+uid 251,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 183,0
+uid 252,0
 ro 180
 va (VaSet
 vasetType 1
@@ -670,11 +684,11 @@ fg "0,65535,0"
 xt "47625,5250,48375,6000"
 )
 tg (CPTG
-uid 184,0
+uid 253,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 185,0
+uid 254,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -687,7 +701,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 186,0
+uid 255,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -701,15 +715,15 @@ n "countOut"
 t "unsigned"
 b "(counterBitNb-1 downto 0)"
 o 2
-suid 5,0
+suid 8,0
 )
 )
 )
-*62 (CptPort
-uid 187,0
+*64 (CptPort
+uid 256,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 188,0
+uid 257,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -717,11 +731,11 @@ fg "0,65535,0"
 xt "25625,5250,26375,6000"
 )
 tg (CPTG
-uid 189,0
+uid 258,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 190,0
+uid 259,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -734,7 +748,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 191,0
+uid 260,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -748,7 +762,7 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 3
-suid 6,0
+suid 9,0
 )
 )
 )
@@ -761,8 +775,9 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,58000,16000"
+xt "15000,6000,58000,13000"
 )
+oxt "15000,6000,58000,16000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -772,21 +787,21 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "29450,9800,43550,11000"
+xt "29450,8300,43550,9500"
 st "PipelinedOperators_test"
-blo "29450,10800"
+blo "29450,9300"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "29450,11000,42850,12200"
+xt "29450,9500,42850,10700"
 st "PipelineCounter_tester"
-blo "29450,12000"
+blo "29450,10500"
 )
 )
-gi *63 (GenericInterface
+gi *65 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -796,10 +811,11 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "7000,7000,20000,9400"
+xt "7000,5500,21000,8700"
 st "Generic Declarations
 
-counterBitNb integer   "
+counterBitNb   integer   
+clockFrequency real      "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -808,6 +824,11 @@ elements [
 (GiElement
 name "counterBitNb"
 type "integer"
+value ""
+)
+(GiElement
+name "clockFrequency"
+type "real"
 value ""
 )
 ]
@@ -822,10 +843,10 @@ sTC 0
 sF 0
 )
 )
-*64 (Grouping
+*66 (Grouping
 uid 16,0
 optionalChildren [
-*65 (CommentText
+*67 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -844,7 +865,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "31200,50000,39900,51000"
+xt "31200,50000,42600,51000"
 st "
 by %user on %dd %month %year
 "
@@ -857,7 +878,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*66 (CommentText
+*68 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -889,7 +910,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*67 (CommentText
+*69 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -921,7 +942,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*68 (CommentText
+*70 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -953,7 +974,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*69 (CommentText
+*71 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -984,7 +1005,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*70 (CommentText
+*72 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -1016,7 +1037,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*71 (CommentText
+*73 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -1047,7 +1068,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*72 (CommentText
+*74 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -1079,7 +1100,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*73 (CommentText
+*75 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -1111,7 +1132,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*74 (CommentText
+*76 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -1168,11 +1189,11 @@ xShown 1
 yShown 1
 color "65535,0,0"
 )
-packageList *75 (PackageList
+packageList *77 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*76 (Text
+*78 (Text
 uid 49,0
 va (VaSet
 font "Verdana,9,1"
@@ -1181,7 +1202,7 @@ xt "0,0,7600,1200"
 st "Package List"
 blo "0,1000"
 )
-*77 (MLText
+*79 (MLText
 uid 50,0
 va (VaSet
 )
@@ -1193,8 +1214,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "86,260,1102,950"
-viewArea "-500,-500,70420,47740"
+windowSize "86,260,1103,950"
+viewArea "-500,-500,70510,47560"
 cachedDiagramExtent "0,0,73000,51000"
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
@@ -1307,7 +1328,7 @@ st "<cell>"
 blo "26800,17000"
 )
 )
-gi *78 (GenericInterface
+gi *80 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -1408,7 +1429,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *79 (SymDeclBlock
+DeclarativeBlock *81 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -1466,6 +1487,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 197,0
+lastUid 266,0
 activeModelName "Symbol:GEN"
 )

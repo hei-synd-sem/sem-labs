@@ -21,7 +21,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 48,0
+suid 55,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -68,10 +68,10 @@ n "a"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 1
-suid 42,0
+suid 49,0
 )
 )
-uid 609,0
+uid 706,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -81,10 +81,10 @@ n "b"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 2
-suid 43,0
+suid 50,0
 )
 )
-uid 611,0
+uid 708,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -93,10 +93,10 @@ decl (Decl
 n "cIn"
 t "std_ulogic"
 o 3
-suid 44,0
+suid 51,0
 )
 )
-uid 613,0
+uid 710,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -105,10 +105,10 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 5
-suid 45,0
+suid 52,0
 )
 )
-uid 615,0
+uid 712,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -116,10 +116,10 @@ decl (Decl
 n "cOut"
 t "std_ulogic"
 o 4
-suid 46,0
+suid 53,0
 )
 )
-uid 617,0
+uid 714,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -128,10 +128,10 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 6
-suid 47,0
+suid 54,0
 )
 )
-uid 619,0
+uid 716,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -140,10 +140,10 @@ n "sum"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 7
-suid 48,0
+suid 55,0
 )
 )
-uid 621,0
+uid 718,0
 )
 ]
 )
@@ -199,43 +199,43 @@ uid 39,0
 litem &14
 pos 0
 dimension 20
-uid 610,0
+uid 707,0
 )
 *27 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 612,0
+uid 709,0
 )
 *28 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 614,0
+uid 711,0
 )
 *29 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 616,0
+uid 713,0
 )
 *30 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 618,0
+uid 715,0
 )
 *31 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 620,0
+uid 717,0
 )
 *32 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 622,0
+uid 719,0
 )
 ]
 )
@@ -361,6 +361,14 @@ value "4"
 )
 uid 405,0
 )
+*55 (LogGeneric
+generic (GiElement
+name "clockFrequency"
+type "real"
+value "60.0E6"
+)
+uid 646,0
+)
 ]
 )
 pdm (PhysicalDM
@@ -368,7 +376,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 62,0
 optionalChildren [
-*55 (Sheet
+*56 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -385,43 +393,49 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *56 (MRCItem
+emptyMRCItem *57 (MRCItem
 litem &41
-pos 2
+pos 3
 dimension 20
 )
 uid 64,0
 optionalChildren [
-*57 (MRCItem
+*58 (MRCItem
 litem &42
 pos 0
 dimension 20
 uid 65,0
 )
-*58 (MRCItem
+*59 (MRCItem
 litem &43
 pos 1
 dimension 23
 uid 66,0
 )
-*59 (MRCItem
+*60 (MRCItem
 litem &44
 pos 2
 hidden 1
 dimension 20
 uid 67,0
 )
-*60 (MRCItem
+*61 (MRCItem
 litem &53
 pos 0
 dimension 20
 uid 100,0
 )
-*61 (MRCItem
+*62 (MRCItem
 litem &54
 pos 1
 dimension 20
 uid 406,0
+)
+*63 (MRCItem
+litem &55
+pos 2
+dimension 20
+uid 647,0
 )
 ]
 )
@@ -434,43 +448,43 @@ textAngle 90
 )
 uid 68,0
 optionalChildren [
-*62 (MRCItem
+*64 (MRCItem
 litem &45
 pos 0
 dimension 20
 uid 69,0
 )
-*63 (MRCItem
+*65 (MRCItem
 litem &47
 pos 1
 dimension 50
 uid 70,0
 )
-*64 (MRCItem
+*66 (MRCItem
 litem &48
 pos 2
 dimension 100
 uid 71,0
 )
-*65 (MRCItem
+*67 (MRCItem
 litem &49
 pos 3
 dimension 100
 uid 72,0
 )
-*66 (MRCItem
+*68 (MRCItem
 litem &50
 pos 4
 dimension 50
 uid 73,0
 )
-*67 (MRCItem
+*69 (MRCItem
 litem &51
 pos 5
 dimension 50
 uid 74,0
 )
-*68 (MRCItem
+*70 (MRCItem
 litem &52
 pos 6
 dimension 80
@@ -498,23 +512,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface.info"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface.user"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -538,27 +552,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tester"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tester"
 )
 (vvPair
 variable "date"
-value "02/17/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -586,11 +600,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02/17/2020"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -598,11 +612,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:11:08"
+value "15:20:22"
 )
 (vvPair
 variable "group"
@@ -610,7 +624,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "ZELL"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -626,7 +640,7 @@ value "$SCRATCH_DIR/PipelinedOperators_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -634,19 +648,19 @@ value "pipelineAdder_tester"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "February"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipeline@adder_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\repo\\edu\\sem\\labo\\solution\\hd-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tester\\interface"
+value "C:\\dev\\sem-labs\\10-PipelinedOperators\\Prefs\\..\\PipelinedOperators_test\\hds\\pipelineAdder_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -722,7 +736,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "17:11:08"
+value "15:20:22"
 )
 (vvPair
 variable "unit"
@@ -730,7 +744,7 @@ value "pipelineAdder_tester"
 )
 (vvPair
 variable "user"
-value "zas"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -742,25 +756,25 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2020"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "20"
+value "23"
 )
 ]
 )
 LanguageMgr "VhdlLangMgr"
 uid 19,0
 optionalChildren [
-*69 (SymbolBody
+*71 (SymbolBody
 uid 8,0
 optionalChildren [
-*70 (CptPort
-uid 574,0
+*72 (CptPort
+uid 671,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 575,0
+uid 672,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -768,11 +782,11 @@ fg "0,65535,0"
 xt "50625,5250,51375,6000"
 )
 tg (CPTG
-uid 576,0
+uid 673,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 577,0
+uid 674,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -785,7 +799,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 578,0
+uid 675,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -800,15 +814,15 @@ n "a"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 1
-suid 42,0
+suid 49,0
 )
 )
 )
-*71 (CptPort
-uid 579,0
+*73 (CptPort
+uid 676,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 580,0
+uid 677,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -816,11 +830,11 @@ fg "0,65535,0"
 xt "48625,5250,49375,6000"
 )
 tg (CPTG
-uid 581,0
+uid 678,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 582,0
+uid 679,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -833,7 +847,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 583,0
+uid 680,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -848,15 +862,15 @@ n "b"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 2
-suid 43,0
+suid 50,0
 )
 )
 )
-*72 (CptPort
-uid 584,0
+*74 (CptPort
+uid 681,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 585,0
+uid 682,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -864,11 +878,11 @@ fg "0,65535,0"
 xt "46625,5250,47375,6000"
 )
 tg (CPTG
-uid 586,0
+uid 683,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 587,0
+uid 684,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -881,7 +895,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 588,0
+uid 685,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -895,15 +909,15 @@ decl (Decl
 n "cIn"
 t "std_ulogic"
 o 3
-suid 44,0
+suid 51,0
 )
 )
 )
-*73 (CptPort
-uid 589,0
+*75 (CptPort
+uid 686,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 590,0
+uid 687,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -911,11 +925,11 @@ fg "0,65535,0"
 xt "26625,5250,27375,6000"
 )
 tg (CPTG
-uid 591,0
+uid 688,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 592,0
+uid 689,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -928,7 +942,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 593,0
+uid 690,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -942,15 +956,15 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 5
-suid 45,0
+suid 52,0
 )
 )
 )
-*74 (CptPort
-uid 594,0
+*76 (CptPort
+uid 691,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 595,0
+uid 692,0
 ro 180
 va (VaSet
 vasetType 1
@@ -959,11 +973,11 @@ fg "0,65535,0"
 xt "22625,5250,23375,6000"
 )
 tg (CPTG
-uid 596,0
+uid 693,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 597,0
+uid 694,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -976,7 +990,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 598,0
+uid 695,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -989,15 +1003,15 @@ decl (Decl
 n "cOut"
 t "std_ulogic"
 o 4
-suid 46,0
+suid 53,0
 )
 )
 )
-*75 (CptPort
-uid 599,0
+*77 (CptPort
+uid 696,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 600,0
+uid 697,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1005,11 +1019,11 @@ fg "0,65535,0"
 xt "28625,5250,29375,6000"
 )
 tg (CPTG
-uid 601,0
+uid 698,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 602,0
+uid 699,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -1022,7 +1036,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 603,0
+uid 700,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1036,15 +1050,15 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 6
-suid 47,0
+suid 54,0
 )
 )
 )
-*76 (CptPort
-uid 604,0
+*78 (CptPort
+uid 701,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 605,0
+uid 702,0
 ro 180
 va (VaSet
 vasetType 1
@@ -1053,11 +1067,11 @@ fg "0,65535,0"
 xt "36625,5250,37375,6000"
 )
 tg (CPTG
-uid 606,0
+uid 703,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 607,0
+uid 704,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -1070,7 +1084,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 608,0
+uid 705,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1084,7 +1098,7 @@ n "sum"
 t "signed"
 b "(adderBitNb-1 DOWNTO 0)"
 o 7
-suid 48,0
+suid 55,0
 )
 )
 )
@@ -1123,7 +1137,7 @@ st "pipelineAdder_tester"
 blo "30450,10800"
 )
 )
-gi *77 (GenericInterface
+gi *79 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -1133,11 +1147,12 @@ uid 15,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "13000,6000,24200,10000"
+xt "13000,6000,27400,11000"
 st "Generic Declarations
 
-adderBitNb positive 32  
-stageNb    positive 4   "
+adderBitNb     positive 32      
+stageNb        positive 4       
+clockFrequency real     60.0E6  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1152,6 +1167,11 @@ value "32"
 name "stageNb"
 type "positive"
 value "4"
+)
+(GiElement
+name "clockFrequency"
+type "real"
+value "60.0E6"
 )
 ]
 )
@@ -1177,11 +1197,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *78 (PackageList
+packageList *80 (PackageList
 uid 16,0
 stg "VerticalLayoutStrategy"
 textVec [
-*79 (Text
+*81 (Text
 uid 17,0
 va (VaSet
 font "Verdana,8,1"
@@ -1190,7 +1210,7 @@ xt "0,0,6500,900"
 st "Package List"
 blo "0,700"
 )
-*80 (MLText
+*82 (MLText
 uid 18,0
 va (VaSet
 )
@@ -1202,9 +1222,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "177,106,1193,796"
-viewArea "-500,-500,76531,41620"
-cachedDiagramExtent "0,0,68000,14000"
+windowSize "177,106,1194,796"
+viewArea "-500,-500,76822,51832"
+cachedDiagramExtent "0,0,69500,14000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
@@ -1317,7 +1337,7 @@ st "<cell>"
 blo "22200,16800"
 )
 )
-gi *81 (GenericInterface
+gi *83 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -1414,7 +1434,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *82 (SymDeclBlock
+DeclarativeBlock *84 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -1472,6 +1492,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 622,0
+lastUid 719,0
 activeModelName "Symbol:GEN"
 )
