@@ -24,6 +24,11 @@ name "bitNb"
 type "positive"
 value "bitNb"
 )
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
+)
 ]
 mwi 0
 uid 421,0
@@ -52,8 +57,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "31.1"
-appVersion "2018.1 (Build 12)"
+version "32.1"
+appVersion "2019.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -64,23 +69,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hdl"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd.info"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd.user"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -104,27 +109,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb"
 )
 (vvPair
 variable "d_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveformGen_tb"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveformGen_tb"
 )
 (vvPair
 variable "date"
-value "25.02.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "day"
-value "lun."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "28"
 )
 (vvPair
 variable "designName"
@@ -152,11 +157,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "25.02.2019"
+value "28.04.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -164,11 +169,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30906"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:48:17"
+value "14:39:46"
 )
 (vvPair
 variable "group"
@@ -176,7 +181,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30906"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -196,7 +201,7 @@ value "$SCRATCH_DIR/WaveformGenerator_test"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -204,19 +209,19 @@ value "waveformGen_tb"
 )
 (vvPair
 variable "month"
-value "févr."
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "février"
+value "avril"
 )
 (vvPair
 variable "p"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveform@gen_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "I:\\Bachelor\\SI\\Cours\\225_SEm\\COURS_COF\\Cours\\Labs\\VHDL\\WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveformGen_tb\\struct.bd"
+value "C:\\dev\\sem-labs\\01-WaveformGenerator\\Prefs\\..\\WaveformGenerator_test\\hds\\waveformGen_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -224,7 +229,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "waveformGenerator"
+value "hds"
 )
 (vvPair
 variable "series"
@@ -296,7 +301,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:48:17"
+value "14:39:46"
 )
 (vvPair
 variable "unit"
@@ -304,11 +309,11 @@ value "waveformGen_tb"
 )
 (vvPair
 variable "user"
-value "francois.corthay"
+value "axel.amand"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -316,11 +321,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "19"
+value "23"
 )
 ]
 )
@@ -339,7 +344,7 @@ declText (MLText
 uid 46,0
 va (VaSet
 )
-xt "2000,11400,12000,12400"
+xt "2000,14600,17400,15800"
 st "SIGNAL reset : std_ulogic"
 )
 )
@@ -355,7 +360,7 @@ declText (MLText
 uid 54,0
 va (VaSet
 )
-xt "2000,9800,12000,10800"
+xt "2000,12200,17500,13400"
 st "SIGNAL clock : std_ulogic"
 )
 )
@@ -380,7 +385,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "44200,54000,54400,55000"
+xt "44200,54500,44200,54500"
 st "
 by %user on %dd %month %year
 "
@@ -410,7 +415,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "61200,50000,64200,51000"
+xt "61200,50500,61200,50500"
 st "
 Project:
 "
@@ -440,7 +445,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "44200,52000,54200,53000"
+xt "44200,52500,44200,52500"
 st "
 <enter diagram title here>
 "
@@ -470,7 +475,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,52000,42300,53000"
+xt "40200,52500,40200,52500"
 st "
 Title:
 "
@@ -500,7 +505,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "61200,51200,70400,52200"
+xt "61200,51200,75300,52400"
 st "
 <enter comments here>
 "
@@ -529,7 +534,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "65200,50000,75300,51000"
+xt "65200,50500,65200,50500"
 st "
 <enter project name here>
 "
@@ -558,7 +563,7 @@ uid 132,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "47150,50500,53850,51500"
+xt "45350,50400,55650,51600"
 st "
 <company name>
 "
@@ -589,7 +594,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,53000,42300,54000"
+xt "40200,53500,40200,53500"
 st "
 Path:
 "
@@ -619,7 +624,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "40200,54000,42900,55000"
+xt "40200,54500,40200,54500"
 st "
 Edited:
 "
@@ -649,7 +654,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "44200,53000,59600,54000"
+xt "44200,53500,44200,53500"
 st "
 %library/%unit/%view
 "
@@ -731,8 +736,9 @@ text (MLText
 uid 429,0
 va (VaSet
 )
-xt "19000,50000,29400,51000"
-st "bitNb = bitNb    ( positive )  "
+xt "19000,50000,45200,52400"
+st "bitNb          = bitNb             ( positive )  
+clockFrequency = clockFrequency    ( real     )  "
 )
 header ""
 )
@@ -741,6 +747,11 @@ elements [
 name "bitNb"
 type "positive"
 value "bitNb"
+)
+(GiElement
+name "clockFrequency"
+type "real"
+value "clockFrequency"
 )
 ]
 )
@@ -758,7 +769,7 @@ declText (MLText
 uid 595,0
 va (VaSet
 )
-xt "2000,12200,19400,13200"
+xt "2000,15800,28300,17000"
 st "SIGNAL step  : unsigned(bitNb-1 DOWNTO 0)"
 )
 )
@@ -774,7 +785,7 @@ declText (MLText
 uid 701,0
 va (VaSet
 )
-xt "2000,10600,11700,11600"
+xt "2000,13400,16900,14600"
 st "SIGNAL en    : std_ulogic"
 )
 )
@@ -1135,9 +1146,9 @@ uid 957,0
 va (VaSet
 font "Arial,9,1"
 )
-xt "39600,29800,48600,30700"
+xt "39600,30800,48600,31700"
 st "WaveformGenerator"
-blo "39600,30500"
+blo "39600,31500"
 tm "BdLibraryNameMgr"
 )
 *31 (Text
@@ -1145,9 +1156,9 @@ uid 958,0
 va (VaSet
 font "Arial,9,1"
 )
-xt "39600,31000,45600,31900"
+xt "39600,32000,45600,32900"
 st "waveformGen"
-blo "39600,31700"
+blo "39600,32700"
 tm "CptNameMgr"
 )
 *32 (Text
@@ -1155,9 +1166,9 @@ uid 959,0
 va (VaSet
 font "Arial,9,1"
 )
-xt "39600,32200,42100,33100"
+xt "39600,33200,42100,34100"
 st "I_DUT"
-blo "39600,32900"
+blo "39600,33900"
 tm "InstanceNameMgr"
 )
 ]
@@ -1171,7 +1182,7 @@ text (MLText
 uid 962,0
 va (VaSet
 )
-xt "39000,33600,51700,35600"
+xt "39000,34600,58400,37000"
 st "phaseBitNb  = bitNb    ( positive )  
 signalBitNb = bitNb    ( positive )  "
 )
@@ -1357,7 +1368,7 @@ on &19
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -1382,7 +1393,7 @@ blo "0,700"
 uid 144,0
 va (VaSet
 )
-xt "0,1000,11300,4000"
+xt "0,1000,17500,4600"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.ALL;"
@@ -1419,7 +1430,7 @@ uid 148,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2000,27500,4000"
+xt "20000,2000,32100,4400"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -1463,8 +1474,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "87,36,1205,906"
-viewArea "-1208,-1208,87107,57669"
+windowSize "-8,-8,1928,1048"
+viewArea "-1194,-1194,105025,56517"
 cachedDiagramExtent "0,0,81000,55000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "Generic PostScript Printer,winspool,"
@@ -1489,7 +1500,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1117,0
+lastUid 1148,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1504,7 +1515,7 @@ text (MLText
 va (VaSet
 fg "65535,0,0"
 )
-xt "200,200,2000,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -1531,7 +1542,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "500,2150,1400,3150"
+xt "450,2150,1450,3350"
 st "
 Text
 "
@@ -1883,7 +1894,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,2000,1200"
+xt "200,200,3200,1400"
 st "
 Text
 "
@@ -2176,7 +2187,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1000,1000,2000"
+xt "0,1000,1500,2200"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -2200,13 +2211,13 @@ stg "VerticalLayoutStrategy"
 first (MLText
 va (VaSet
 )
-xt "0,0,3100,1000"
+xt "0,0,5000,1200"
 st "Auto list"
 )
 second (MLText
 va (VaSet
 )
-xt "0,1000,6300,2000"
+xt "0,1000,9600,2200"
 st "User defined list"
 tm "PortMapTextMgr"
 )
@@ -2228,7 +2239,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,12600,-100"
+xt "0,-1100,18500,100"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -2288,7 +2299,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,7400,-100"
+xt "0,-1100,11000,100"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -2412,25 +2423,27 @@ uid 3,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "0,6000,3000,6900"
+xt "0,5900,3000,6800"
 st "Ports:"
-blo "0,6700"
+blo "0,6600"
 )
 preUserLabel (Text
 uid 4,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "0,7000,4500,7900"
+xt "0,6800,4500,7700"
 st "Pre User:"
-blo "0,7700"
+blo "0,7500"
 )
 preUserText (MLText
 uid 5,0
 va (VaSet
 )
-xt "2000,8000,13000,9000"
-st "constant bitNb: positive := 16;"
+xt "2000,7700,26900,11300"
+st "constant bitNb: positive := 16;
+constant clockFrequency: real := 60.0E6;
+--constant clockFrequency: real := 66.0E6;"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -2438,9 +2451,9 @@ uid 6,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "0,8800,8500,9700"
+xt "0,11300,8500,12200"
 st "Diagram Signals:"
-blo "0,9500"
+blo "0,12000"
 )
 postUserLabel (Text
 uid 7,0
