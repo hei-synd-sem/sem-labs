@@ -4292,7 +4292,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200+2349+55"
+logWindowGeometry "679x388+307+271"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6400,7 +6400,8 @@ componentBrowserYpos 300
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"ADD"
+"Board"
+"Lattice"
 ]
 )
 (SmPreferences

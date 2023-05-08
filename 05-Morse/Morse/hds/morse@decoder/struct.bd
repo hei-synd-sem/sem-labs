@@ -180,19 +180,19 @@ value "C:\\dev\\sem-labs\\05-Morse\\Prefs\\..\\Morse\\hds\\morseDecoder"
 )
 (vvPair
 variable "date"
-value "28.04.2023"
+value "08.05.2023"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "28"
+value "08"
 )
 (vvPair
 variable "designName"
@@ -224,7 +224,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.04.2023"
+value "08.05.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -236,7 +236,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:50:11"
+value "08:02:13"
 )
 (vvPair
 variable "group"
@@ -260,7 +260,7 @@ value "$SCRATCH_DIR/Morse"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -268,11 +268,11 @@ value "morseDecoder"
 )
 (vvPair
 variable "month"
-value "avr."
+value "mai"
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "mai"
 )
 (vvPair
 variable "p"
@@ -328,7 +328,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:50:11"
+value "08:02:13"
 )
 (vvPair
 variable "unit"
@@ -1766,8 +1766,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "68250,50250,69750,51750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 ordering 1
 viewiconposition 0
@@ -2811,8 +2812,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "20250,50250,21750,51750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 ordering 1
 viewiconposition 0
@@ -3922,8 +3924,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-7612,-1603,134949,75855"
+windowSize "0,0,1921,1056"
+viewArea "-7600,-1600,134612,76352"
 cachedDiagramExtent "-6000,0,103000,74000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3950,7 +3952,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 2450,0
+lastUid 2503,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
