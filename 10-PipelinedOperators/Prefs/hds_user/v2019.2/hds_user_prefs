@@ -6387,20 +6387,20 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 5
-yPos 40
+xPos 0
+yPos 0
 width 1936
 height 1056
 activeSidePanelTab 2
 activeLibraryTab 1
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 569
+componentBrowserXpos -1351
 componentBrowserYpos 300
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"ADD"
+"Board"
 ]
 )
 (SmPreferences
