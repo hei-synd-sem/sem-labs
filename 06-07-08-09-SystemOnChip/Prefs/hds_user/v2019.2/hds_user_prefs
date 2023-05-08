@@ -6369,12 +6369,6 @@ activeViewpointIdx 0
 )
 ]
 ViewpointsOnOutlookBar [
-"Requirements"
-"Default Viewpoint"
-"Version Management"
-"HDL Files"
-"Logical Objects"
-"All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
 expandedTemplateNodes [
@@ -6402,7 +6396,7 @@ componentBrowserYpos 300
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"ADD"
+"Board"
 ]
 )
 (SmPreferences

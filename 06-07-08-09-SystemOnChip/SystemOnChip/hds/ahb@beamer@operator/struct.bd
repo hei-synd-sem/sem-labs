@@ -333,19 +333,19 @@ value "C:\\dev\\sem-labs\\06-07-08-09-SystemOnChip\\Prefs\\..\\SystemOnChip\\hds
 )
 (vvPair
 variable "date"
-value "28.04.2023"
+value "08.05.2023"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "28"
+value "08"
 )
 (vvPair
 variable "designName"
@@ -377,7 +377,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.04.2023"
+value "08.05.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -389,7 +389,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:01:08"
+value "10:42:24"
 )
 (vvPair
 variable "group"
@@ -425,7 +425,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -433,11 +433,11 @@ value "ahbBeamerOperator"
 )
 (vvPair
 variable "month"
-value "avr."
+value "mai"
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "mai"
 )
 (vvPair
 variable "p"
@@ -525,7 +525,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:01:08"
+value "10:42:24"
 )
 (vvPair
 variable "unit"
@@ -568,7 +568,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "257000,197000,274000,198000"
+xt "253000,178000,270000,179000"
 )
 oxt "18000,70000,35000,71000"
 text (MLText
@@ -577,7 +577,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "257200,197500,257200,197500"
+xt "253200,178500,253200,178500"
 st "
 by %user on %dd %month %year
 "
@@ -598,7 +598,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "274000,193000,278000,194000"
+xt "270000,174000,274000,175000"
 )
 oxt "35000,66000,39000,67000"
 text (MLText
@@ -607,7 +607,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "274200,193500,274200,193500"
+xt "270200,174500,270200,174500"
 st "
 Project:
 "
@@ -628,7 +628,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "257000,195000,274000,196000"
+xt "253000,176000,270000,177000"
 )
 oxt "18000,68000,35000,69000"
 text (MLText
@@ -637,7 +637,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "257200,195500,257200,195500"
+xt "253200,176500,253200,176500"
 st "
 <enter diagram title here>
 "
@@ -658,7 +658,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "253000,195000,257000,196000"
+xt "249000,176000,253000,177000"
 )
 oxt "14000,68000,18000,69000"
 text (MLText
@@ -667,7 +667,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "253200,195500,253200,195500"
+xt "249200,176500,249200,176500"
 st "
 Title:
 "
@@ -688,7 +688,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "274000,194000,294000,198000"
+xt "270000,175000,290000,179000"
 )
 oxt "35000,67000,55000,71000"
 text (MLText
@@ -697,7 +697,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "274200,194200,288300,195400"
+xt "270200,175200,284300,176400"
 st "
 <enter comments here>
 "
@@ -717,7 +717,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "278000,193000,294000,194000"
+xt "274000,174000,290000,175000"
 )
 oxt "39000,66000,55000,67000"
 text (MLText
@@ -726,7 +726,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "278200,193500,278200,193500"
+xt "274200,174500,274200,174500"
 st "
 <enter project name here>
 "
@@ -747,7 +747,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "253000,193000,274000,195000"
+xt "249000,174000,270000,176000"
 )
 oxt "14000,66000,35000,68000"
 text (MLText
@@ -755,7 +755,7 @@ uid 31,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "258350,193400,268650,194600"
+xt "254350,174400,264650,175600"
 st "
 <company name>
 "
@@ -777,7 +777,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "253000,196000,257000,197000"
+xt "249000,177000,253000,178000"
 )
 oxt "14000,69000,18000,70000"
 text (MLText
@@ -786,7 +786,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "253200,196500,253200,196500"
+xt "249200,177500,249200,177500"
 st "
 Path:
 "
@@ -807,7 +807,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "253000,197000,257000,198000"
+xt "249000,178000,253000,179000"
 )
 oxt "14000,70000,18000,71000"
 text (MLText
@@ -816,7 +816,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "253200,197500,253200,197500"
+xt "249200,178500,249200,178500"
 st "
 Edited:
 "
@@ -837,7 +837,7 @@ va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 )
-xt "257000,196000,274000,197000"
+xt "253000,177000,270000,178000"
 )
 oxt "18000,69000,35000,70000"
 text (MLText
@@ -846,7 +846,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "257200,196500,257200,196500"
+xt "253200,177500,253200,177500"
 st "
 %library/%unit/%view
 "
@@ -867,7 +867,7 @@ fg "65535,65535,65535"
 lineStyle 2
 lineWidth 2
 )
-xt "253000,193000,294000,198000"
+xt "249000,174000,290000,179000"
 )
 oxt "14000,66000,55000,71000"
 )
@@ -884,7 +884,7 @@ uid 80,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,159800,14700,160800"
+xt "19000,124500,31700,125500"
 st "clock               : std_ulogic"
 )
 )
@@ -945,7 +945,7 @@ uid 122,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,158000,14800,159000"
+xt "19000,122700,31800,123700"
 st "outX                : std_ulogic"
 )
 )
@@ -1006,7 +1006,7 @@ uid 136,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,161600,14800,162600"
+xt "19000,126300,31800,127300"
 st "outY                : std_ulogic"
 )
 )
@@ -1023,7 +1023,7 @@ uid 164,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,160700,14700,161700"
+xt "19000,125400,31700,126400"
 st "reset               : std_ulogic"
 )
 )
@@ -1040,7 +1040,7 @@ uid 437,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,167000,16400,168000"
+xt "19000,131700,33400,132700"
 st "newPolynom          : std_ulogic"
 )
 )
@@ -1058,7 +1058,7 @@ uid 543,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,186800,28700,187800"
+xt "19000,151500,45700,152500"
 st "SIGNAL sampleX             : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1076,7 +1076,7 @@ uid 545,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,199400,29800,200400"
+xt "19000,164100,46800,165100"
 st "SIGNAL unsignedX           : unsigned(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1094,7 +1094,7 @@ uid 547,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,195800,28800,196800"
+xt "19000,160500,45800,161500"
 st "SIGNAL samplesX            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1112,7 +1112,7 @@ uid 549,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,187700,28900,188700"
+xt "19000,152400,45900,153400"
 st "SIGNAL sampleX1            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1130,7 +1130,7 @@ uid 551,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,188600,28900,189600"
+xt "19000,153300,45900,154300"
 st "SIGNAL sampleX2            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1148,7 +1148,7 @@ uid 553,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,189500,28900,190500"
+xt "19000,154200,45900,155200"
 st "SIGNAL sampleX3            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1166,7 +1166,7 @@ uid 555,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,190400,28900,191400"
+xt "19000,155100,45900,156100"
 st "SIGNAL sampleX4            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1184,7 +1184,7 @@ uid 557,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,175100,27500,176100"
+xt "19000,139800,44500,140800"
 st "SIGNAL aX                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1202,7 +1202,7 @@ uid 559,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,176900,27500,177900"
+xt "19000,141600,44500,142600"
 st "SIGNAL bX                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1220,7 +1220,7 @@ uid 561,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,178700,27400,179700"
+xt "19000,143400,44400,144400"
 st "SIGNAL cX                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1238,7 +1238,7 @@ uid 563,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,181400,27500,182400"
+xt "19000,146100,44500,147100"
 st "SIGNAL dX                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1256,7 +1256,7 @@ uid 866,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,196700,28800,197700"
+xt "19000,161400,45800,162400"
 st "SIGNAL samplesY            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1274,7 +1274,7 @@ uid 868,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,192200,28900,193200"
+xt "19000,156900,45900,157900"
 st "SIGNAL sampleY1            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1292,7 +1292,7 @@ uid 870,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,193100,28900,194100"
+xt "19000,157800,45900,158800"
 st "SIGNAL sampleY2            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1310,7 +1310,7 @@ uid 872,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,194000,28900,195000"
+xt "19000,158700,45900,159700"
 st "SIGNAL sampleY3            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1328,7 +1328,7 @@ uid 874,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,194900,28900,195900"
+xt "19000,159600,45900,160600"
 st "SIGNAL sampleY4            : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1346,7 +1346,7 @@ uid 876,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,176000,27500,177000"
+xt "19000,140700,44500,141700"
 st "SIGNAL aY                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1364,7 +1364,7 @@ uid 878,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,177800,27500,178800"
+xt "19000,142500,44500,143500"
 st "SIGNAL bY                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1382,7 +1382,7 @@ uid 880,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,179600,27400,180600"
+xt "19000,144300,44400,145300"
 st "SIGNAL cY                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1400,7 +1400,7 @@ uid 882,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,182300,27500,183300"
+xt "19000,147000,44500,148000"
 st "SIGNAL dY                  : signed(coeffBitNb-1 DOWNTO 0)"
 )
 )
@@ -1418,7 +1418,7 @@ uid 884,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,191300,28700,192300"
+xt "19000,156000,45700,157000"
 st "SIGNAL sampleY             : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1436,7 +1436,7 @@ uid 886,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,200300,29800,201300"
+xt "19000,165000,46800,166000"
 st "SIGNAL unsignedY           : unsigned(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1453,7 +1453,7 @@ uid 1349,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,158900,14600,159900"
+xt "19000,123600,31600,124600"
 st "run                 : std_ulogic"
 )
 )
@@ -1471,7 +1471,7 @@ uid 1777,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,164300,29900,165300"
+xt "19000,129000,46900,130000"
 st "updatePeriod        : unsigned(updatePeriodBitNb-1 DOWNTO 0)"
 )
 )
@@ -1488,7 +1488,7 @@ uid 1994,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,185000,19400,186000"
+xt "19000,149700,36400,150700"
 st "SIGNAL interpolationEnable : std_ulogic"
 )
 )
@@ -1576,7 +1576,7 @@ uid 3153,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,165200,30000,166200"
+xt "19000,129900,47000,130900"
 st "memX                : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1664,7 +1664,7 @@ uid 3914,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,166100,30000,167100"
+xt "19000,130800,47000,131800"
 st "memY                : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1751,7 +1751,7 @@ uid 4801,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,185900,29400,186900"
+xt "19000,150600,46400,151600"
 st "SIGNAL phase               : unsigned(phaseBitNb-1 DOWNTO 0)"
 )
 )
@@ -1769,7 +1769,7 @@ uid 4803,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,198500,29000,199500"
+xt "19000,163200,46000,164200"
 st "SIGNAL step                : unsigned(phaseBitNb-1 DOWNTO 0)"
 )
 )
@@ -1787,7 +1787,7 @@ uid 4859,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,197600,27800,198600"
+xt "19000,162300,44800,163300"
 st "SIGNAL sine                : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1923,7 +1923,7 @@ uid 5262,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,184100,18900,185100"
+xt "19000,148800,35900,149800"
 st "SIGNAL interpolationEn     : std_ulogic"
 )
 )
@@ -1941,7 +1941,7 @@ uid 5937,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,180500,28100,181500"
+xt "19000,145200,45100,146200"
 st "SIGNAL cosine              : signed(signalBitNb-1 DOWNTO 0)"
 )
 )
@@ -1958,7 +1958,7 @@ uid 6504,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,162500,15300,163500"
+xt "19000,127200,32300,128200"
 st "selSinCos           : std_ulogic"
 )
 )
@@ -1975,7 +1975,7 @@ uid 8149,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,183200,19000,184200"
+xt "19000,147900,36000,148900"
 st "SIGNAL interpolateLinear   : std_ulogic"
 )
 )
@@ -1992,7 +1992,7 @@ uid 9647,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,163400,15400,164400"
+xt "19000,128100,32400,129100"
 st "interpolateLin      : std_ulogic"
 )
 )
@@ -9089,15 +9089,15 @@ uid 43,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,99000,6900,100000"
+xt "17000,110400,23900,111400"
 st "Package List"
-blo "0,99800"
+blo "17000,111200"
 )
 *290 (MLText
 uid 44,0
 va (VaSet
 )
-xt "0,100000,17500,103600"
+xt "17000,111400,34500,115000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.ALL;"
@@ -9179,15 +9179,15 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-8,-8,1928,1048"
-viewArea "-4318,94646,299797,259879"
-cachedDiagramExtent "0,0,294800,201200"
+viewArea "13023,98875,296113,252685"
+cachedDiagramExtent "13500,0,295700,188600"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\vmenpprint1.hevs.ch\\VS-FOLLOWME-PRN,winspool,"
 fileName "ipp://ippsion.hevs.ch/ipp/PREA309_HPLJ3005DN"
 toPrinter 1
 colour 1
-xMargin 47
-yMargin 47
+xMargin 46
+yMargin 46
 paperWidth 761
 paperHeight 1077
 unixPaperWidth 595
@@ -9207,7 +9207,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,99000"
-lastUid 18239,0
+lastUid 18336,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -10120,34 +10120,34 @@ uid 2,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,156200,7000,157200"
+xt "17000,120900,24000,121900"
 st "Declarations"
-blo "0,157000"
+blo "17000,121700"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,157100,3400,158100"
+xt "17000,121800,20400,122800"
 st "Ports:"
-blo "0,157900"
+blo "17000,122600"
 )
 preUserLabel (Text
 uid 4,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,167900,4800,168900"
+xt "17000,132600,21800,133600"
 st "Pre User:"
-blo "0,168700"
+blo "17000,133400"
 )
 preUserText (MLText
 uid 5,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,168800,36100,174800"
+xt "19000,133500,53100,139500"
 st "constant coeffBitNb : positive := signalBitNb+3+1;
 constant sampleCountBitNb : positive := 8;
 constant patternAddressBitNb : positive := 8;
@@ -10161,9 +10161,9 @@ uid 6,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "0,174200,9000,175200"
+xt "17000,138900,26000,139900"
 st "Diagram Signals:"
-blo "0,175000"
+blo "17000,139700"
 )
 postUserLabel (Text
 uid 7,0
@@ -10171,9 +10171,9 @@ va (VaSet
 isHidden 1
 font "Verdana,8,1"
 )
-xt "0,156200,6000,157200"
+xt "17000,120900,23000,121900"
 st "Post User:"
-blo "0,157000"
+blo "17000,121700"
 )
 postUserText (MLText
 uid 8,0
@@ -10181,7 +10181,7 @@ va (VaSet
 isHidden 1
 font "Verdana,8,0"
 )
-xt "0,156200,0,156200"
+xt "17000,120900,17000,120900"
 tm "BdDeclarativeTextMgr"
 )
 )
